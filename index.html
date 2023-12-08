@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Our App</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+    <!-- HEADER / NAV -->
+
+    <header>
+        <nav class="navbar">
+            <img class="navbar__logo" src="assets/zocom-logo 1.png" alt="Logo">
+            <i class="fa-solid fa-bars"></i>
+            <ul class="navbar__ul">
+                <li class="navbar__li">HOME</li>
+                <li class="navbar__li">HOW IT WORKS</li>
+                <li class="navbar__li">FEATURES</li>
+                <li class="navbar__li">PRESS</li>
+                <li class="navbar__li">PRICING</li>
+                <li class="navbar__li">CONTACT</li>
+            </ul>
+            <button class="navbar__button">GET A QUOTE</button>
+        </nav>
+        <section class="hero">
+            <h1 class="hero__h1">Download our App</h1>
+            <p class="hero__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel eleifend diam, tempus accumsan neque. Praesent quis dolor.</p>
+            <figure class="hero__buttons">
+                <img class="hero__button" src="/assets/App store btn.png" alt="App store button">
+                <img class="hero__button" src="/assets/Google play btn.png" alt="Google play button">
+            </figure>
+            
+            <img class="hero__phone-img" src="/assets/phone.png" alt="Big phone icon">
+        </section>
+    </header>
+
+            <!-- MAIN -->
+
+    <main>
+        <h1 class="title">Our products</h1>
+        <section class="cards"> 
+            
+
+            <!-- SMALL CARDS -->
+
+            <article class="cards__card-small small-1">
+                <img class="cards__card-small-img" src="/assets/image-outline 1.png">
+                <h3 class="cards__card-small-h3">Green Cap</h3>
+                <p class="cards__card-small-p">US$29</p>
+            </article>
+            <article class="cards__card-small small-2">
+                <img class="cards__card-small-img" src="/assets/image-outline 1.png">
+                <h3 class="cards__card-small-h3">Zara shirt</h3>
+                <p class="cards__card-small-p">US$19.90</p>
+            </article>
+            <article class="cards__card-small small-3">
+                <img class="cards__card-small-img" src="/assets/image-outline 1.png">
+                <h3 class="cards__card-small-h3">Nike Air</h3>
+                <p class="cards__card-small-p">US$34</p>
+            </article>
+            <article class="cards__card-small small-4">
+                <img class="cards__card-small-img" src="/assets/image-outline 1.png">
+                <h3 class="cards__card-small-h3">Nerd tshirt</h3>
+                <p class="cards__card-small-p">US$9.99</p>
+            </article>
+
+            <!-- BIG CARDS -->
+
+            <article class="cards__card-big big-1">
+                <h2 class="cards__card-big-h2">COLLECTION</h2>
+                <p class="cards__card-big-p">Summer 2021</p>
+                <button class="cards__card-big-btn">CHECK IT OUT</button>
+            </article>
+            <article class="cards__card-big big-2">
+                <h2 class="cards__card-big-h2">COLLECTION</h2>
+                <p class="cards__card-big-p">Summer 2021</p>
+                <button class="cards__card-big-btn">CHECK IT OUT</button>
+            </article>
+
+        </section>
+    </main>
+
+            <!-- FOOTER -->
+
+    <footer>
+        <section class="contact">
+            <h1 class="contact__h1">Contact us</h1>
+            <h3 class="contact__h3">We´d love to hear from you</h3>
+            <p class="contact__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse vel eleifend diam, tempus accumsan neque.</p>
+                
+                <form class="contact__form" action="/submit" method="post">
+                    <label for="name">Name:</label>
+                    <input class="contact__form-input" type="text" id="name" name="name" required>
+            
+                    <label for="email">E-post:</label>
+                    <input class="contact__form-input" type="email" id="email" name="email" required>
+            
+                    <label for="address">Address:</label>
+                    <input class="contact__form-input" type="text" id="address" name="address" required>
+            
+                    <label for="phone">Phone:</label>
+                    <input class="contact__form-input" type="tel" id="phone" name="phone" required>
+            
+                    <label for="other">Other information:</label>
+                    <textarea class="contact__form-textarea" id="other" name="other" rows="4"></textarea>
+            
+                    <button class="contact__form-button" type="submit">Skicka</button>
+                </form>
+
+                <ul class="contact__ul">
+                    <li class="contact__li--address">Vallgatan 25, Göteborg</li>
+                    <li class="contact__li--number">031 123 456 7</li>
+                    <li class="contact__li--mail">info@zocom.se</li>
+                </ul>
+
+        </section>
+    </footer>
+</body>
+</html>
