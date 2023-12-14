@@ -65,7 +65,7 @@ header{
   }
   
 
-.navbar__button{
+.button{
     padding: 0.75em 1.875em;
     border-radius: 3px;
     border: 1px solid #000;
@@ -288,16 +288,6 @@ footer{
     margin:1em 0;
 }
 
-.contact__form-button{
-    padding: 0.75em 1.875em;
-    border-radius: 3px;
-    border: 1px solid #000;
-    color: #000;
-    text-align: center;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 0.75rem;
-    font-weight: 500; 
-}
 
 /* TEXT */
 
@@ -405,7 +395,7 @@ footer{
     }
 }
 
-.navbar__button,
+.button,
 .contact__form-button,
 .cards__card-big-btn,
 .hero__button {
@@ -413,7 +403,7 @@ footer{
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-.navbar__button:hover,
+.button:hover,
 .contact__form-button:hover,
 .cards__card-big-btn:hover {
     transform: scale(1.05);
